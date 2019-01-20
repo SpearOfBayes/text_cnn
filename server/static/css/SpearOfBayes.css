@@ -1,0 +1,160 @@
+.banner{
+  width: 100%;
+  height: 9%;
+  background: white;
+  border-bottom:2px solid rgb(11, 35, 110);
+}
+
+.left_bar {
+  width: 15%;
+  border-right: none;
+  height: 91%;
+  float: left;
+  background: rgb(13, 45, 66);
+}
+
+.main_window {
+  margin-left: 15%;
+  width: auto;
+  height: 91%;
+  background: white;
+}
+
+.single_query {
+  position: relative;
+  left: 28%;
+  top: 30%;
+  width:60%;
+}
+
+.center {
+  width: 100%;
+  height: 100%;
+  /*background: rgb(68, 124, 197);*/
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+
+.module_list {
+  list-style-type:none;
+  width: 100%;
+}
+
+.module {
+  width: 100%;
+  cursor:pointer;
+  height: 45px;
+  text-align: left;
+  font-size: 18px;
+  padding: 11px;
+}
+.module:hover {
+  background-color: rgb(83, 170, 241);
+}
+
+.active_module {
+  width: 100%;
+  cursor:pointer;
+  height: 45px;
+  text-align: left;
+  font-size: 18px;
+  padding: 11px;
+  background-color: rgba(117, 117, 116, 0.425);
+}
+.active_module:hover {
+  background-color: rgb(83, 170, 241);
+}
+
+.module_font {
+  color: aliceblue;
+  font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+  text-decoration:none;
+}
+
+.group_name {
+  color: orange;
+  font-size: 150%;
+  font-family:"Times New Roman",Georgia,Serif;
+}
+
+.top_right_navbar {
+  position: absolute;
+  right: 2%;
+  top: 16px;
+  font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+  font-size: 15px;
+}
+
+.top_right_navbar_item {
+  margin: 6px;
+  float:left;
+}
+
+.search_text {
+  border:2px solid #c5464a;
+  border-radius:5px;
+  height: 45px;
+  font-size: 18px;
+}
+.search_button {
+  height: 45px;
+}
+
+.top_right_link {
+  color: black;
+}
+
+i {
+  color: grey;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+.background_container {
+  width: 100%;
+  height: 100%;
+  background: rgb(158, 158, 158);
+}
+
+.inner_container {
+  background: white;
+  position: relative;
+  top: 0px;
+  left: 3%;
+  width: 94%;
+  height: 100%;
+}
+
+.commodity_name {
+  width: 95%;
+  border:2px solid #67a7a3;
+  border-radius:5px;
+}
+
+.class_name {
+  width: 95%;
+  border:1px solid #a8605e;
+  border-radius:5px;
+}
+
+.batch_query_input {
+  height: 90%;
+}
+
+.submit_button {
+  margin: 1px 18px 0px 18px;
+  width: 100px;
+  float: right;
+}
+
+.bottom_bar {
+  position: relative;
+  border:1px solid #1c1f1e;
+  border-radius:5px;
+}
